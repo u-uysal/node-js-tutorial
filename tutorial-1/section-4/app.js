@@ -3,6 +3,7 @@ var http = require('http'); // bir web sunucusu oluşturmak için kullanılan mo
 http.createServer(function (request, response) { //createServer web sunucusu oluşturma yöntemi
 // request : bir web sunucusuna yapılan istektir
 //response : isteğe karşılık serverın yaptığı yanıt
+  console.log(request.headers)
 
   response.writeHead(200, {'Content-Type': 'text/html ; charset = utf-8 '});
   // 200 ün manası yapılan istek ok! .gayet legal istek demek
