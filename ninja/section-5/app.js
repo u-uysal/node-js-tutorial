@@ -1,3 +1,6 @@
+// return  npm install slugify yazılır terminale
+
+
 const slugify = require('slugify'); // modulu dahil etmek
 
 const texting = "how to install a module.";
